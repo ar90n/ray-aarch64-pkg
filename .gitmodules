@@ -1,0 +1,9 @@
+[submodule "ray"]
+	path = ray
+	url = git@github.com:ray-project/ray.git
+[submodule "py-spy"]
+	path = py-spy
+	url = https://github.com/benfred/py-spy
+[submodule "bazel"]
+	path = bazel
+	url = git@github.com:bazelbuild/bazel.git
