@@ -1,0 +1,12 @@
+diff --git a/bazel/ray_deps_setup.bzl b/bazel/ray_deps_setup.bzl
+index 9e3f272f7..f8ad9976b 100644
+--- a/bazel/ray_deps_setup.bzl
++++ b/bazel/ray_deps_setup.bzl
+@@ -129,6 +129,7 @@ def ray_deps_setup():
+         patches = [
+             "//thirdparty/patches:rules_boost-undefine-boost_fallthrough.patch",
+             "//thirdparty/patches:rules_boost-windows-linkopts.patch",
++	    "//thirdparty/patches:rules_boost-context-thread-arm64.patch",
+         ],
+     )
+ 
