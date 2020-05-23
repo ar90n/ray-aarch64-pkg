@@ -1,0 +1,1 @@
+dumb-pypi --package-list packages --packages-url https://ar90n-pypi.s3-ap-northeast-1.amazonaws.com/ --output-dir ./
